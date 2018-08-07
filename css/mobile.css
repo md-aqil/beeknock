@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+
+.main-top-row {
+
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+}  
+
+.flower-art {
+  margin-top: -40px;
+}
+
+
+.bee {
+    top: 30px !important;
+    width: 40px !important;
+    left: 97px !important;
+}
+
+}/*media*/
+
