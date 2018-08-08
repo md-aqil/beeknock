@@ -7,15 +7,41 @@
 }  
 
 .flower-art {
-  margin-top: -40px;
+ margin-top: 0px;
+     display: block;
+     width: 401px;
+     margin-left: 0;
+     margin-right: 0;
 }
 
 
 .bee {
-    top: 30px !important;
-    width: 40px !important;
-    left: 97px !important;
+   top: 170px !important;
+    width: 33px !important;
+    left: 127px !important;
 }
 
+.navbar-brand.por{
+	display: block;
+}
+
+
+
+.logo-bee {
+   position: absolute;
+       left: -4px;
+       top: -8px;
+       width: 35px;
+}
+
+
+.navbar-brand img {
+	margin-top: 8px !important;
+	margin-left: 8px !important;
+
+}
+.top-heading {
+	font-size: 40px;
+}
 }/*media*/
 

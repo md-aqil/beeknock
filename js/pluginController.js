@@ -80,3 +80,9 @@ TweenMax.fromTo('', 1, {
   tl.staggerFrom(chars,0.01, {opacity:0, ease:Power1.easeIn}, 0.08, "+=0.1");
 
    tl.timeScale(1);
+
+
+$('.fliter-button li').click(function() {
+  $(this).addClass('active-f').siblings('li').removeClass('active-f');
+})
+
