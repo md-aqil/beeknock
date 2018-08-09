@@ -74,15 +74,55 @@ TweenMax.fromTo('', 1, {
 })
 
 
-  var tl =  new TimelineMax({repeat:-1});
-  mySplitText = new SplitText("#txt", {type:"words,chars"}), 
-  chars = mySplitText.chars;
-  tl.staggerFrom(chars,0.01, {opacity:0, ease:Power1.easeIn}, 0.08, "+=0.1");
-
-   tl.timeScale(1);
-
 
 $('.fliter-button li').click(function() {
   $(this).addClass('active-f').siblings('li').removeClass('active-f');
 })
 
+
+
+
+
+        Typed.new("#typed", {
+            stringsElement: document.getElementById('typed-strings'),
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: true,
+            cursorChar: '<img width="38" src="BeeFlying.gif">',
+
+            contentType: 'html', // or text
+            // defaults to null for infinite loop
+            loopCount: null,
+
+
+            // call when done callback function
+              callback: function() { one() },
+
+
+              // starting callback function before each string
+              preStringTyped: function() { two() },
+
+
+              //callback for every typed string
+              onStringTyped: function() { three() },
+              
+
+              // callback for reset
+              resetCallback: function() { four() }
+
+        });
+
+     function one() {
+       console.log('one');
+     }
+
+    function two() {
+       console.log('two');
+     }
+
+  function three() {
+       console.log('three');
+     }
+  function four() {
+       console.log('four');
+     }
