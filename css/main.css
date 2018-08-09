@@ -1253,14 +1253,6 @@ line-height: 2;
 }
 
 
-.grid {
-  position: relative;
-  margin: 0 auto;
-  padding: 1em 0 4em;
-  max-width: 1000px;
-  list-style: none;
-  text-align: center;
-}
 
 /* Common style */
 .grid figure {
@@ -1534,7 +1526,7 @@ figure.effect-roxy:hover p {
 /*---------------*/
 
 figure.effect-bubba {
-  background: #9e5406;
+  background: var(--theme-color);
 }
 
 figure.effect-bubba img {
@@ -1589,6 +1581,13 @@ figure.effect-bubba p {
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0,20px,0);
   transform: translate3d(0,20px,0);
+  font-size:  18px;
+}
+figure.effect-bubba p a {
+  color: #fff;
+  display:  block;
+  font-size:  15px;
+  text-transform:  capitalize;
 }
 
 figure.effect-bubba:hover figcaption::before,

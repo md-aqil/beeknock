@@ -8,7 +8,7 @@ $('.navbar-toggle').click(function() {
 
 
 
-  $('.t_g').wavify({
+$('.t_g').wavify({
   height: 1000,
   bones: 6,
   amplitude: 30,
