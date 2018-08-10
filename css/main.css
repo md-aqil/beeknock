@@ -12,6 +12,9 @@ body {
 }
 .heading {
   font-weight: 400 !important;
+
+}
+.title {
   margin-bottom: 50px;
 }
 :root {
