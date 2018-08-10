@@ -9,7 +9,7 @@
 .flower-art {
  margin-top: 0px;
      display: block;
-     width: 401px;
+     width: 350px;
      margin-left: 0;
      margin-right: 0;
 }
@@ -43,5 +43,36 @@
 .top-heading {
 	font-size: 40px;
 }
+
+#textHolder{
+  color: #fff;
+      left: 0;
+      right: -145px;
+      margin: auto;
+      top: 15px;
+      width: 160px;
+      height: 89px;
+      font-size: 10px;
+}
+.typed-cursor img {
+  width: 25px;
+}
+.main-h-box .top-heading {
+  font-size: 20px;
+}
 }/*media*/
 
+
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px)  
+{ 
+
+.flower-art {
+  width: 75%;
+  margin-left: 0;
+      margin-right: 0;
+}
+
+
+}  

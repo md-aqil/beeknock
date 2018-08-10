@@ -86,7 +86,7 @@ $('.fliter-button li').click(function() {
         Typed.new("#typed", {
             stringsElement: document.getElementById('typed-strings'),
             typeSpeed: 30,
-            backDelay: 500,
+            backDelay: 10,
             loop: true,
             cursorChar: '<img width="38" src="BeeFlying.gif">',
 
@@ -112,6 +112,8 @@ $('.fliter-button li').click(function() {
 
         });
 
+
+
      function one() {
        console.log('one');
      }
@@ -121,7 +123,7 @@ $('.fliter-button li').click(function() {
      }
 
   function three() {
-       console.log('three');
+      // document.getElementById('typed')._typed.reset();
      }
   function four() {
        console.log('four');
