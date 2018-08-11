@@ -1397,7 +1397,9 @@ line-height: 2;
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(rgba(47, 48, 50, 0.7), rgba(47, 48, 50, 0.7));
+  background: linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+ 
+
   border-radius: 0;
   transition: visibility 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   opacity: 0;
