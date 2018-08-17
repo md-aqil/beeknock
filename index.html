@@ -107,11 +107,15 @@
               </div>
       
               <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="navbar-sample">
+              <div class="collapse navbar-collapse" id="navbar-sample" style="margin-top: 35px;
+    margin-right: 40px;">
                
-             <!--    <ul class="nav navbar-nav navbar-right">
-              
-                </ul> -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://beeknock.com/">Home</a></li>
+                    <li><a href="#services" class="page">Services</a></li>
+                    <li><a href="#portfolio" class="page">Portfolio</a></li>
+                    <li><a href="#contact" class="page">Contact Us</a></li>
+                </ul>
               </div>
             </div>
           </nav>
@@ -4728,11 +4732,13 @@
            <div class="container">
              <div class="row">
                
-                <div class="col-md-6 por">
-                    <div class="wwd-section  wow fadeInUp" >
+                <div class="col-md-6 por  wow fadeInUp">
+                    <div class="wwd-section " >
                         <h1 class="heading">What We do</h1>
 
-                        <p class="subheading">Our Hackers (programmers), spend days and nights hacking and writing lines of code that help us give you a product with strong backbone using modern technologies.</p>
+                        <p class="subheading">
+                         We’re in the business of awesome web development because we only rely on premier, modern and most worthy technologies to build web projects. Focusing on process-driven development, each of us at Beknock aims at providing impressive website development services, quick product-to-market delivery so that users (client’s customers) don’t look any further as they can find everything they need on the websites we build.
+                        </p>
                     </div>
               
                </div>
@@ -4760,44 +4766,59 @@
          </div>
        </div>
 
-   <div class="container spacethis text-center work-section">
+   <div class="container spacethis text-center work-section" id="services">
      <h1 class="heading text-center title">Services</h1>
 <br><br>
 
      <div class="row service-row">
       <div class="col-md-3 col-xs-6">
-        <img src="illlus/graphics.svg" alt="">
-         <h4>Graphic Design</h4>
-
+        <div class="wow fadeInUp">
+            <img src="illlus/graphics.svg" alt="">
+             <h4>Graphic Design</h4>
+            <p class="read">
+                From simple icons to expertly crafted Illustration and branding identity. We excel at this.
+            </p>
+        </div>
+      
        </div> 
 
 
        <div class="col-md-3 col-xs-6">
-        <img src="illlus/uxui.svg" alt="">
-         <h4>Web Design</h4>
-        
-
+         <div class="wow fadeInUp" data-wow-delay=".3s">
+            <img src="illlus/uxui.svg" alt="">
+             <h4>UI/UX/Web Design</h4>
+            <p class="read">
+                We design digital products, responsive websites, android apps. We are always up for a new challenge.
+            </p>
+        </div>
        </div>
 
-     
-
-   
-        <div class="col-md-3 col-xs-6">
-        <img src="illlus/app.svg" alt="">
-         <h4>App Design</h4>
-
-       </div> 
 
          <div class="col-md-3 col-xs-6">
-          <img src="illlus/dev.svg" alt="">
-           <h4>Development</h4>
+            <div class="wow fadeInUp" data-wow-delay=".6s">
+                  <img src="illlus/dev.svg" alt="">
+                   <h4>Development</h4>
+                 <p>
+                     <small><i><b>WE ARE DELIVERING BEAUTIFUL DIGITAL PRODUCTS</b></i></small>
+                     We provide high quality and cost effective offshore web and software development services
+                 </p>
+            </div>
          </div>
 
+          <div class="col-md-3 col-xs-6">
+             <div class="wow fadeInUp" data-wow-delay=".9s">
+              <img src="illlus/app.svg" alt="">
+               <h4>Social media management</h4>
+               <p class="read">
+                   Understanding business objectives and consumer insights to manage the social media presence of diverse Brands.
+               </p>
+           </div>
+         </div> 
       
      </div>
    </div>
 
-   <div class="container spacethis">
+   <div class="container spacethis" id="portfolio">
 
     <h1 class="heading text-center title">Portfolio</h1>
     <ul class="fliter-button list-inline text-center">
@@ -4821,7 +4842,7 @@
 
     <ul class="list-unstyled image-grid">
 
-        <li class="image-grid__item" data-tag='web-design'>
+        <li class="image-grid__item" data-tag='graphic-design'>
          <a href="pages/landing-1.html" class="grid-item" target="_blank">
              <div class="grid-item__image" style="background-image: url(img/portfolio/front.jpg)"></div>
              <div class="grid-item__hover"></div>
@@ -4878,7 +4899,7 @@
              </a>
             </li>
 
-            <li class="image-grid__item" data-tag='web-design'>
+            <li class="image-grid__item" data-tag='app-design'>
              <a href="https://play.google.com/store/apps/details?id=io.bigly.seller&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="grid-item" target="_blank">
                  <div class="grid-item__image" style="background-image: url(img/portfolio/mobile-app.png)"></div>
                  <div class="grid-item__hover"></div>
@@ -4886,7 +4907,7 @@
 
              </a>
             </li>
-  <li class="image-grid__item" data-tag='web-design'>
+  <li class="image-grid__item" data-tag='graphic-design'>
              <a href="pages/404-page.html" class="grid-item" target="_blank">
                  <div class="grid-item__image" style="background-image: url(img/portfolio/404-page.jpg)"></div>
                  <div class="grid-item__hover"></div>
@@ -4894,7 +4915,7 @@
 
              </a>
             </li>
- <li class="image-grid__item" data-tag='web-design'>
+ <li class="image-grid__item" data-tag='graphic-design'>
              <a href="pages/pitch-deck-illustration.html" class="grid-item" target="_blank">
                  <div class="grid-item__image" style="background-image: url(img/portfolio/welcom.jpg)"></div>
                  <div class="grid-item__hover"></div>
@@ -4903,7 +4924,7 @@
 
              </a>
             </li>
-<li class="image-grid__item" data-tag='web-design'>
+<li class="image-grid__item" data-tag='graphic-design'>
              <a href="pages/dont-drink-and-drive.html" class="grid-item" target="_blank">
                  <div class="grid-item__image" style="background-image: url(img/portfolio/ddd.jpg)"></div>
                  <div class="grid-item__hover"></div>
@@ -4918,14 +4939,14 @@
    </div>
 
 
-  <div class="container text-center spacethis">
+  <div class="container text-center spacethis" id="contact">
     <div class="wwd-section" style="width: 80%;">
  <h1 class="">Do you have a Product in your mind?</h1> 
 
  <p class="subheading">We would be thrilled to learn about your project. Let's collaborate. </p>
 
  <br><br>
- <a class="btn btn-theme" href="mailto:aqilali381@gmail.com">Email Me</a>
+ <a class="btn btn-theme" href="mailto:aqilali381@gmail.com">Email Us</a>
 
  <ul class="list-inline fsocial profile">
              <li>

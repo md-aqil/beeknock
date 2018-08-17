@@ -128,3 +128,10 @@ $('.fliter-button li').click(function() {
   function four() {
        console.log('four');
      }
+
+     $('a.page').click(function(){
+         $('html, body').animate({
+             scrollTop: $( $(this).attr('href') ).offset().top
+         }, 2000);
+         return false;
+     });
