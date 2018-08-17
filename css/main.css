@@ -1459,7 +1459,7 @@ line-height: 2;
 
 
 }
-.wwd-section:hover {
+.wwd-section:not(.contact):hover {
   animation: float 1s;
 }
 
