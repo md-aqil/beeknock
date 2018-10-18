@@ -1,5 +1,14 @@
 @media (max-width: 767px) {
-
+  .swiper-round-image .swiper-slide img {
+    width: 85%;
+  }
+  #text {
+    top: 139px;
+    font-size: 22px;
+  }
+  .swp-content {
+    right: 20px;
+  }
 .main-top-row {
 
       flex-wrap: wrap;

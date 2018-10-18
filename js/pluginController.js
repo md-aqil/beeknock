@@ -8,14 +8,6 @@ $('.navbar-toggle').click(function() {
 
 
 
-$('.t_g').wavify({
-  height: 1000,
-  bones: 6,
-  amplitude: 30,
- 
-  speed: .25
-});
-
 
 // expand 
 var tl = new TimelineMax({ repeat: -1 });
@@ -135,3 +127,53 @@ $('.fliter-button li').click(function() {
          }, 2000);
          return false;
      });
+
+var swiper = new Swiper('.swiper-container.products', {
+    slidesPerView: 3,
+    spaceBetween: 100,
+    parallax: true,
+    freeMode: true,
+    grab:true,
+      
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+     navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+       
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        }
+      }
+  });
+
+
+  var mySplitText = new SplitText("#text", {
+      type: "chars"
+    }),
+
+    tl = new TimelineLite(),
+    numWords = mySplitText.words.length;
+
+
+
+  tl.staggerFrom(mySplitText.chars, 1.5, {
+    opacity: 0,
+   yPercent: 80,
+    ease: Elastic.easeOut.config(1, 0.75)
+   
+  }, '0.1');
+
