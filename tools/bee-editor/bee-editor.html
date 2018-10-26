@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bee Editor</title>
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="gradient/colorpicker.css">
+        <link rel="stylesheet" href="gradient/gradX.css">
+        <link rel="stylesheet" href="css/instagram.css">
+        <link rel="stylesheet" href="css/main.css">
+         <meta name="language" content="English">
+              <meta charset="utf-8">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+              <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+              <meta property="og:locale" content="en_US" />
+              <meta property="og:type" content="website" />
+
+              <meta name="description" content="Are you looking for creative Website Design Company in Delhi? Get user friendly professional and E-commerce web development services. Join the innovators."/>
+
+                        
+
+          <meta name="keywords" content="web designing Delhi, website design Delhi, web Design Company in Delhi, web designing companies in Delhi, md aqil" />
+
+
+          <meta property="og:title" content="Are you looking for creative Website Design Company in Delhi? Get user friendly professional and E-commerce web development services.">
+
+          <meta  property="og:description" content="We are a website designing company in delhi bringing together passion, creativity and innovation to stand out of the crowd.
+
+        ">
+          <meta property="og:url" content="http://beeknock.com/tools/bee-editor/bee-editor.html">
+
+          <meta property="og:image" content="http://beeknock.com/img/tools-editor.jpg">
+
+          <style>
+              ::-webkit-scrollbar-track
+              {
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #F5F5F5;
+              }
+
+              ::-webkit-scrollbar
+              {
+                width: 12px;
+                background-color: #F5F5F5;
+              }
+
+              ::-webkit-scrollbar-thumb
+              {
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: #000;
+              }
+
+          </style>
+    </head>
+    <body>
+        <a class="logo" href="index.html">
+           <img width="150" src="img/logo.svg">
+            <img src="img/BeeFlying.gif" class="logo-bee">
+       </a>
+
+        <div class="upload-image">
+            <input type="file" class="custom-file-input" id="input-choose-file">
+        </div>
+        <div class="container">
+            <main class="main">
+              
+                <div id="imageContainer" class="center">
+                    <!-- <img class="image" src="img/img.jpg" alt=""> -->
+                    <div class="main-image-box">
+                    <div class="image filter-normal" id="main-image">
+                        <a href="" class="btn-image-close">&times;</a>
+                    </div>
+                    </div>
+                   
+                </div>
+                
+            </main><div id="valu-box"></div>
+                  
+                
+            <nav class="nav">
+                <div class="top">
+                    <div class="filter-btn">
+                    <img src="img/color-filters.svg" width="25" alt="" style="
+    vertical-align: middle;"> Photo Filters 
+                    </div>
+                    
+                </div>
+            <!--     
+                <form id="urlBox" class="center">
+                    <input class="url-box" type="url" id="imgUrl" placeholder="Paste any image link and start playing!">
+                    <input id="go" type="button" value="Go">
+                </form> -->
+                <div class="insta-filter-aside">
+                    <a href="" class="filter-insta-close">×</a>
+                    <ul class="insta-filter-list">
+                        <li>
+                            <div data-filter="normal">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                                <span>Normal</span>
+                        </li>
+                        <li>
+                            <div data-filter="1977">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>1977</span>
+                        </li>
+                        <li>
+                            <div data-filter="aden">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Aden</span>
+                        </li>
+                        <li>
+                            <div data-filter="amaro">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Amaro</span>
+                        </li>
+                        <li>
+                            <div data-filter="ashby">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Ashby</span>
+                        </li>
+                        <li>
+                            <div data-filter="brannan">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Brannan</span>
+                        </li>
+                        <li>
+                            <div data-filter="brooklyn">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Brooklyn</span>
+                        </li>
+                        <li>
+                            <div data-filter="charmes">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Charmes</span>
+                        </li>
+                        <li>
+                            <div data-filter="clarendon">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Clarendon</span>
+                        </li>
+                        <li>
+                            <div data-filter="crema">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Crema</span>
+                        </li>
+                        <li>
+                            <div data-filter="dogpatch">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Dogpatch</span>
+                        </li>
+                        <li>
+                            <div data-filter="earlybird">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Earlybird</span>
+                        </li>
+                        <li>
+                            <div data-filter="gingham">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Gingham</span>
+                        </li>
+                        <li>
+                            <div data-filter="ginza">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Ginza</span>
+                        </li>
+                        <li>
+                            <div data-filter="hefe">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Hefe</span>
+                        </li>
+                        <li>
+                            <div data-filter="helena">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Helena</span>
+                        </li>
+                        <li>
+                            <div data-filter="hudson">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Hudson</span>
+                        </li>
+                        <li>
+                            <div data-filter="inkwell">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Inkwell</span>
+                        </li>
+                        <li>
+                            <div data-filter="kelvin">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Kelvin</span>
+                        </li>
+                        <li>
+                            <div data-filter="juno">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Juno</span>
+                        </li>
+                        <li>
+                            <div data-filter="lark">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Lark</span>
+                        </li>
+                        <li>
+                            <div data-filter="lofi">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Lo-Fi</span>
+                        </li>
+                        
+                        <li>
+                            <div data-filter="ludwig">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Ludwig</span>
+                        </li>
+                        <li>
+                            <div data-filter="maven">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Maven</span>
+                        </li>
+                        <li>
+                            <div data-filter="mayfair">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Mayfair</span>
+                        </li>
+                        <li>
+                            <div data-filter="moon">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Moon</span>
+                        </li>
+                        <li>
+                            <div data-filter="nashville">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Nashville</span>
+                        </li>
+                        <li>
+                            <div data-filter="perpetua">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Perpetua</span>
+                        </li>
+                        <li>
+                            <div data-filter="poprocket">
+                                <img src="img/instagram.jpg" class="img-responsive"/>
+                            </div>
+                            <span>Poprocket</span>
+                        </li>
+                        <li>
+                            <div data-filter="reyes">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Reyes</span>
+                        </li>
+                        <li>
+                            <div data-filter="rise">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Rise</span>
+                        </li>
+                        <li>
+                            <div data-filter="sierra">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Sierra</span>
+                        </li>
+                        <li>
+                            <div data-filter="skyline">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Skyline</span>
+                        </li>
+                        <li>
+                            <div data-filter="slumber">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Slumber</span>
+                        </li>
+                        <li>
+                            <div data-filter="stinson">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Stinson</span>
+                        </li>
+                        <li>
+                            <div data-filter="sutro">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Sutro</span>
+                        </li>
+                        <li>
+                            <div data-filter="toaster">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Toaster</span>
+                        </li>
+                        <li>
+                            <div data-filter="valencia">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Valencia</span>
+                        </li>
+                        <li>
+                            <div data-filter="vesper">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span>Vesper</span>
+                        </li>
+                        <li>
+                            <div data-filter="walden">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Walden</span>
+                        </li>
+                        <li>
+                            <div data-filter="willow">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">Willow</span>
+                        </li>
+                        
+                        <li>
+                            <div data-filter="xpro-ii">
+                                <img src="img/instagram.jpg" class="img-responsive">
+                            </div>
+                            <span class="h6">X-Pro II</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sliders">
+                    <form id="imageEditor">
+                        <p class="range-slider">
+                            <label for="gs">Grayscale</label>
+                            <input id="gs" class="range-slider__range" name="gs" type="range" min="0" max="100" value="0">
+                            <span class="range-slider__value">0</span>
+                        </p >
+                        <p class="range-slider">
+                            <label for="blur">Blur</label>
+                            <input class="range-slider__range" id="blur" name="blur" type="range" min="0" max="10" value="0">
+                            <span class="range-slider__value">0</span>
+                        </p>
+                        <p class="range-slider">
+                            <label for="br">Exposure</label>
+                            <input class="range-slider__range" id="br" name="br" type="range" min="0" max="200" value="100">
+                            <span class="range-slider__value">0</span>
+                        </p>
+                        <p class="range-slider">
+                            <label for="ct">Contrast</label>
+                            <input class="range-slider__range" id="ct" name="ct" type="range" min="0" max="200" value="100">
+                            <span class="range-slider__value">0</span>
+                        </p>
+                        <p class="range-slider">
+                            <label for="huer">Hue Rotate</label>
+                            <input class="range-slider__range" id="huer" name="huer" type="range" min="0" max="360" value="0">
+                            <span class="range-slider__value">0</span>
+                        </p>
+                        <p class="range-slider">
+                            <label for="opacity">Opacity</label>
+                            <input class="range-slider__range" id="opacity" name="opacity" type="range" min="0" max="100" value="100">
+                            <span class="range-slider__value">0</span>
+                        </p>
+                        <p class="range-slider">
+                            <label for="invert">Invert</label>
+                            <input class="range-slider__range" id="invert" name="invert" type="range" min="0" max="100" value="0">
+                            <span class="range-slider__value">0</span>
+                        </p>
+                        <p class="range-slider">
+                            <label for="saturate">Saturate</label>
+                            <input class="range-slider__range" id="saturate" name="saturate" type="range" min="0" max="500" value="100">
+                            <span class="range-slider__value">0</span>
+                        </p>
+                        <p class="range-slider ">
+                            <label for="sepia">Sepia</label>
+                            <input class="range-slider__range" id="sepia" name="sepia" type="range" min="0" max="100" value="0">
+                            <span class="range-slider__value">0</span>
+                        </p>
+                        <div class="c-inline">
+                            <p>
+                            <label for="sepia">Color</label>
+                                <input type="color" class="select-color" value="#ff0000">
+                            </p>
+                            <p>
+
+                                  <label for="sepia" class="gradient-button">Gradient</label>
+                            </p>
+                        </div>
+
+                         <p>
+                      
+                          <div id="gradX" ></div>
+                        </p>
+                        <p>
+                            <label for="sepia">Blend Mode</label>
+                            <select class="blend-select form-control">
+                                <option value="normal">Default</option>
+                                <option value="lighten">Lighten</option>
+                                <option value="multiply">multiply</option>
+                                <option value="screen">screen</option>
+                                <option value="overlay">overlay</option>
+                                <option value="darken">darken</option>
+                                <option value="lighten">lighten</option>
+                                <option value="color-dodge">color-dodge</option>
+                                <option value="color-burn">color-burn</option>
+                                <option value="hard-light">hard-light</option>
+                                <option value="soft-light">soft-light</option>
+                                <option value="difference">difference</option>
+                                <option value="exclusion">exclusion</option>
+                                <option value="hue">hue</option>
+                                <option value="saturation">saturation</option>
+                                <option value="color">color</option>
+                                <option value="luminosity">luminosity</option>
+                            </select>
+                        </p>
+                        <p>
+                            <input class="btn btn-theme" type="reset" form="imageEditor" id="reset" value="Reset" />
+                        </p>
+                    </form>
+                </div>
+               
+            </nav>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="gradient/colorpicker.min.js"></script>
+        <script src="gradient/dom-drag.js"></script>
+        <script src="gradient/gradX.js"></script>
+        <script src="js/main.js"></script>
+        <script>    
+            $('.top').click(function() {
+                $('.insta-filter-aside').addClass('visible');
+            })  
+            $('.filter-insta-close').click(function(e) {
+                e.preventDefault();
+                $('.insta-filter-aside').removeClass('visible');
+                $('.insta-filter-aside').addClass('visible-shift');
+            })
+            gradX("#gradX", {
+                targets: [".image"]
+            });
+
+            $('.gradient-button').click(function() {
+                $('.gradx').slideToggle();
+            })
+        </script>
+    </body>
+</html>

@@ -1657,3 +1657,16 @@ svg.morph-svg path{
   right: 0;
   text-align: center;
 }
+.imageditro-box {
+box-shadow: 1px 2px 22px rgba(0, 0, 0, 0.15);
+}
+.imageditro-box img  {
+  width: 100%;
+}
+
+.the {
+  color: #040404;
+      font-size: 50px;
+      /* letter-spacing: 10px; */
+      font-weight: bold;
+}
