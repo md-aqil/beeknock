@@ -1670,3 +1670,73 @@ box-shadow: 1px 2px 22px rgba(0, 0, 0, 0.15);
       /* letter-spacing: 10px; */
       font-weight: bold;
 }
+
+
+ .nav > li {
+      list-style: none;
+      float: left;
+      display: block;
+
+ }
+    .nav > li a {
+     display: block;
+          padding: 13px 15px;
+      cursor: pointer;
+    }
+    
+    .drop {
+      position: relative;
+    }
+
+     .drop.left .drop-menu{
+       right: 0;
+       left: inherit;
+        transform-origin:top right;
+     }
+    .drop .drop-menu {
+      position: absolute;
+     left: 0;
+      top: 3em;
+      -webkit-transition: all 0.2s cubic-bezier(0.680, 0, 0.265, 1);
+      transition: all 0.2s;
+      -webkit-transform: scale(0);
+              transform: scale(0);
+              transform-origin:top left;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+      background: #fff;
+    }
+
+    .drop .drop-menu li {
+      display: block;
+      width: 100%;
+      opacity: 0;
+      transform: translate(-20px, 0px);
+     
+    }
+    .drop.open .drop-menu li {
+      display: block;
+       transition: all .4s;
+      opacity: 1;
+      transform: translate(0px, 0);
+
+        
+    }
+    .drop ul li a {
+      width: 100%;
+      padding: 1em 18px;
+      white-space: pre;
+      box-sizing: border-box;
+      color: #333;
+      text-decoration: none;
+    }
+   
+     .nav ul{
+      padding: 0;
+    }
+
+    .drop.open .drop-menu {
+      -webkit-transform: scale(1);
+        transform: scale(1);
+        transition-timing-function: cubic-bezier(0.680, 0, 0.265, 1);
+    }
+

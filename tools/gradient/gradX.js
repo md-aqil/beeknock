@@ -119,7 +119,8 @@ var gradX = function(id, _options) {
                     ele = gradx.gx(this.targets[i]);
 
                     for (j = 0; j < v_len; j++) {
-                        ele.css("background-image", values[j]);
+                        // console.log('element', ele);
+                        ele.css("background-image", 'url(' + ele.attr('data-image') + '), ' + values[j]);
                     }
 
                 }
@@ -518,7 +519,7 @@ var gradX = function(id, _options) {
             this.panel = gradx.gx("#gradx_panel_" + id);
             //.hide();
             //this.info.hide();
-            this.container_width = 300 //HARDCODE;
+            this.container_width = 200 //HARDCODE;
             this.add_slider(sliders);
 
 
