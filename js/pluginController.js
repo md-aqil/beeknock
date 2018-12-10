@@ -66,10 +66,29 @@ TweenMax.fromTo('', 1, {
 })
 
 
+var tl2 = new TimelineMax({ repeat: -1 });
 
-$('.fliter-button li').click(function() {
-  $(this).addClass('active-f').siblings('li').removeClass('active-f');
-})
+
+tl2.fromTo('#gril-main', 1, {
+  rotation: 2, 
+   transformOrigin: 'center bottom',
+    ease:Linear.easeNone
+},
+
+{
+  rotation: -2,
+
+  repeat: -1,
+  
+  yoyo: true,
+  immediateRender:false,
+   transformOrigin: 'center bottom',
+   ease:Linear.easeNone
+}, 0)
+.fromTo("#the-chair", 1, {y:0,  repeat: -1, yoyo: true, }, {y:10,  repeat: -1, yoyo: true,})
+  
+
+
 
 
 

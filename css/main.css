@@ -1880,3 +1880,20 @@ h4 i {
   background: #fff !important;
   color: var(--theme-color) !important;
 }
+
+.designer-div {
+ height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.designer-div svg {
+  width: 100%;
+   /*transform: rotateX(-70deg);*/
+}
+
+
+.typed-cursor img {
+  width: 38px;
+}
