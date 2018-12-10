@@ -161,21 +161,7 @@ var swiper = new Swiper('.swiper-container.products', {
   });
 
 
-  var mySplitText = new SplitText("#text", {
-      type: "chars"
-    }),
-
-    tl = new TimelineLite(),
-    numWords = mySplitText.words.length;
-
-
-
-  tl.staggerFrom(mySplitText.chars, 1.5, {
-    opacity: 0,
-   yPercent: 80,
-    ease: Elastic.easeOut.config(1, 0.75)
-   
-  }, '0.1');
+ 
 
  $('.drop').click(function () {
         $(this).toggleClass('open').siblings().removeClass('open');
@@ -191,3 +177,9 @@ var swiper = new Swiper('.swiper-container.products', {
         'transition-delay': delay
     });                  
 });
+
+
+  $('.wow.fadeInUp').each(function(a) {
+    $(this).attr('data-wow-delay', `${(a / 10) * 1.5}s`);
+  });
+      

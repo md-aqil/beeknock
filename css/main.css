@@ -569,9 +569,12 @@ animation-delay: 1s;
    .fsocial.profile li {
    margin: 0px 8px;
        border-radius: 3px;
-       padding: 10px;
        margin-top: 40px;
+           opacity: .8;
    }
+    .fsocial.profile li:hover {
+      opacity: 1;
+    }
 
 .bg-1 {
   background: #ffbc13;
@@ -1855,4 +1858,25 @@ h4 i {
 .spacehalf {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+#footer {
+  width: 100%;
+  height: 100vh;
+}
+
+.fill-box {
+  width: 100%;
+  height: 100vh;
+  background: var(--theme-color);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn-white {
+  background: #fff !important;
+  color: var(--theme-color) !important;
 }
