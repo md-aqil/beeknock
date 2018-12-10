@@ -1740,9 +1740,9 @@ box-shadow: 1px 2px 22px rgba(0, 0, 0, 0.15);
 
 .morph-svg {
   position: absolute;
-    top: -90px;
+    top: -100px;
     right: -100px;
-    width: 900px;
+    width: 800px;
 }
 
 #Portfolio {
@@ -1851,4 +1851,8 @@ h4 i {
     left: -250px;
     z-index: -1;
     top:-50px;
+}
+.spacehalf {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
