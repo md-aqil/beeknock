@@ -129,8 +129,8 @@ $('.fliter-button li').click(function() {
      });
 
 var swiper = new Swiper('.swiper-container.products', {
-    slidesPerView: 3,
-    spaceBetween: 100,
+    slidesPerView: 4,
+    spaceBetween: 50,
     parallax: true,
     freeMode: true,
     grab:true,

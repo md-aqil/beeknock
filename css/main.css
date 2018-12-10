@@ -10,10 +10,7 @@ body {
 .width100 {
   width: 100%;
 }
-.heading {
-  font-weight: 400 !important;
 
-}
 .title {
   margin-bottom: 50px;
 }
@@ -566,12 +563,15 @@ animation-delay: 1s;
 }
 
  .fsocial.profile li img {
-    width: 40px;
-  width: 35px;
-  background: #fff;
-  border-radius: 7px;
-  margin: 30px 8px;
+  width: 30px;
+ 
   }
+   .fsocial.profile li {
+   margin: 0px 8px;
+       border-radius: 3px;
+       padding: 10px;
+       margin-top: 40px;
+   }
 
 .bg-1 {
   background: #ffbc13;
@@ -1111,6 +1111,7 @@ line-height: 2;
       position: relative;
       height: 100%;
     }
+
  .parallax-bg {
    position: absolute;
    left: 0;
@@ -1452,17 +1453,15 @@ line-height: 2;
   padding: 30px;
   height: 100%;
   margin: auto;
-  margin-top: 100px;
   box-shadow: 9px 15px 50px #0000001c;
-   animation: float 3s ease-in-out infinite;
-   border: 2px solid var(--theme-color);
+   /*animation: float 3s ease-in-out infinite;*/
 
 
 }
-.wwd-section:not(.contact):hover {
+/*.wwd-section:not(.contact):hover {
   animation: float 1s;
 }
-
+*/
 
 @keyframes float {
   0% {
@@ -1515,9 +1514,8 @@ svg.morph-svg path{
   position: absolute;
 }
 .heading {
-  font-size: 45px;
-  color: #444;
-  line-height: 1.2;
+ color: #000;
+     margin-top: 2px;
 }
 .subheading {
   font-size: 18px;
@@ -1530,7 +1528,7 @@ svg.morph-svg path{
 
 .swiper-round-image .swiper-slide img {
   width: 100%;
-  height: 480px;
+  height: 400px;
   object-fit: cover;
   border-radius: 0px 0px 0px 70px;
   box-shadow: 20px 20px 40px 0 rgba(183,183,183,0.65);
@@ -1540,7 +1538,7 @@ svg.morph-svg path{
   margin-top: -70px;
 }
 .swiper-round-image .swiper-slide:nth-child(odd) .swp-content {
-  bottom: 130px;
+  bottom: 212px;
 }
 .swiper-container {
   padding: 100px 0;
@@ -1549,7 +1547,6 @@ svg.morph-svg path{
 
 .swiper-button-prev, .swiper-button-next {
   top: inherit;
-  margin-top: 40px;
   width: 20px;
   background: url(../img/right-arrow.svg) center no-repeat;
   margin-right: 150px;
@@ -1571,24 +1568,25 @@ svg.morph-svg path{
   background: #fff;
       z-index: 1;
       position: absolute;
-      bottom: 50px;
-      right: -70px;
+    bottom: 140px;
+        right: -30px;
       padding: 10px 50px;
-      border-radius: 1px;
+      border-radius: 3px;
       box-shadow:20px 20px 30px 0 rgba(0, 0, 0, 0.17);
 }
 .swp-content h4{
   margin-top: 0;
+  margin-bottom:  1px;
+  color:  #fff;
 }
 .swp-content a {
-  color: #555;
+  color: #fff;
 
  }
 
  .link {
   display: block;
   position: relative;
-  margin-left: -6px;
  }
   .link:after {
     content: '';
@@ -1740,3 +1738,117 @@ box-shadow: 1px 2px 22px rgba(0, 0, 0, 0.15);
         transition-timing-function: cubic-bezier(0.680, 0, 0.265, 1);
     }
 
+.morph-svg {
+  position: absolute;
+    top: -90px;
+    right: -100px;
+    width: 900px;
+}
+
+#Portfolio {
+  overflow: hidden;
+}
+
+
+.gradient-1 {
+  background: linear-gradient(150deg, #9C09DB, #1C0FD7) !important;
+  -webkit-box-shadow: 0 2px 4px rgba(36, 8, 128, 0.2);
+  box-shadow: 0 2px 4px rgba(36, 8, 128, 0.2);
+}
+
+.gradient-2, .schedule-nav-link.active {
+  background: linear-gradient(150deg, #F2C314, #FC3832) !important;
+  -webkit-box-shadow: 0 2px 4px rgba(128, 32, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(128, 32, 0, 0.2);
+}
+
+.gradient-3 {
+  background: linear-gradient(150deg, #32FBFC, #3214F2) !important;
+  -webkit-box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+  box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+}
+
+.gradient-4 {
+  background: linear-gradient(150deg, #2576FD, #1E98FE) !important;
+  -webkit-box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+  box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+}
+
+.gradient-5 {
+  background: linear-gradient(150deg, #FF9C51, #FFD46C) !important;
+  -webkit-box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+  box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+}
+
+.gradient-6 {
+  background: linear-gradient(150deg, #614AFE, #8776FE) !important;
+  -webkit-box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+  box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+}
+
+.gradient-7 {
+  background: linear-gradient(150deg, #29C182, #4BEAA4) !important;
+  -webkit-box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+  box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+}
+
+
+.gradient-8 {
+  background: linear-gradient(150deg, #DC8EF4, #A463EA) !important;
+  -webkit-box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+  box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+}
+
+
+.gradient-9 {
+  background: linear-gradient(150deg, #A0DDFF, #909AFD) !important;
+  -webkit-box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+  box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+}
+
+
+.gradient-10 {
+  background: linear-gradient(150deg, #D8D8D8, #15D8B4) !important;
+  -webkit-box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+  box-shadow: 0 2px 4px rgba(8, 38, 168, 0.2);
+}
+.shape-2 {
+  position: relative;
+}
+.shape-2::after {
+    content: '';
+    display: block;
+    height: 16rem;
+    width: 16rem;
+    background: url(../img/shape-2.svg) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: -5rem;
+    left: -9rem;
+    z-index: -1;
+}
+
+.heading-tag {
+  display: inline-block;
+      padding: 2px 50px;
+      font-size: 4px;
+      color: #fff;
+      text-transform: uppercase;
+      border-radius: 3px;
+}
+
+h4 i {
+  color: #fff;
+    padding: 1px 7px;
+    font-style: normal;
+    margin: 0;
+    line-height: 0;
+    border-radius: 3px;
+}
+
+.morph-svg.m2{
+  width: 600PX;
+    left: -250px;
+    z-index: -1;
+    top:-50px;
+}
