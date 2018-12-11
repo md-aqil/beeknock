@@ -160,6 +160,10 @@ animation-delay: 1s;
 .text-white {
   color: #fff !important;
 }
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+}
   .btn.btn-theme {
 
   transition: opacity .45s cubic-bezier(0.25, 1, 0.33, 1), transform .45s cubic-bezier(0.25, 1, 0.33, 1), border-color .45s cubic-bezier(0.25, 1, 0.33, 1), color .45s cubic-bezier(0.25, 1, 0.33, 1), background-color .45s cubic-bezier(0.25, 1, 0.33, 1), box-shadow .45s cubic-bezier(0.25, 1, 0.33, 1);
@@ -1132,10 +1136,7 @@ line-height: 2;
       margin: auto;
       height: 100%;
     }
-   .swiper-slide, .slider-background  {
-    width: 1000px;
-    height: 500px;
-   }
+ 
   
   .slider-background {
     border-radius: 3px;
@@ -1553,6 +1554,7 @@ svg.morph-svg path{
   width: 20px;
   background: url(../img/right-arrow.svg) center no-repeat;
   margin-right: 150px;
+  margin-top: 30px;
 }
 
 .swiper-button-prev {
@@ -1673,13 +1675,13 @@ box-shadow: 1px 2px 22px rgba(0, 0, 0, 0.15);
 }
 
 
- .nav > li {
+ .drop-menu > li {
       list-style: none;
       float: left;
       display: block;
 
  }
-    .nav > li a {
+    .drop-menu > li a {
      display: block;
           padding: 13px 15px;
       cursor: pointer;

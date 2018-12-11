@@ -85,7 +85,7 @@ tl2.fromTo('#gril-main', 1, {
    transformOrigin: 'center bottom',
    ease:Linear.easeNone
 }, 0)
-.fromTo("#the-chair", 1, {y:0,  repeat: -1, yoyo: true, }, {y:10,  repeat: -1, yoyo: true,})
+
   
 
 
@@ -165,15 +165,15 @@ var swiper = new Swiper('.swiper-container.products', {
       breakpoints: {
        
         768: {
-          slidesPerView: 1,
+          slidesPerView: 2,
           spaceBetween: 30,
         },
         640: {
-          slidesPerView: 1,
-          spaceBetween: 20,
+          slidesPerView: 2,
+          spaceBetween: 50,
         },
         320: {
-          slidesPerView: 1,
+          slidesPerView:2,
           spaceBetween: 10,
         }
       }

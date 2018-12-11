@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
   .swiper-round-image .swiper-slide img {
-    width: 85%;
+    width: 100%;
   }
   #text {
     top: 139px;
@@ -16,7 +16,7 @@
 }  
 
 .flower-art {
- margin-top: 0px;
+ margin-top: -40px;
      display: block;
      width: 350px;
      margin-left: 0;
@@ -25,7 +25,7 @@
 
 
 .bee {
-   top: 170px !important;
+   top: 65px !important;
     width: 33px !important;
     left: 127px !important;
 }
@@ -62,13 +62,50 @@
       width: 160px;
       height: 89px;
       font-size: 10px;
+      overflow: hidden;
 }
 .typed-cursor img {
   width: 25px;
 }
 .main-h-box .top-heading {
-  font-size: 20px;
+  font-size: 26px;
 }
+
+.btn.btn-theme.page {
+  margin-top: 12px !important;
+}
+
+.spacethis {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.morph-svg {
+    position: absolute;
+    top: -10px;
+    right: -70px;
+    width: 580px;
+}
+
+#footer {
+  height: 100%;
+}
+.designer-div {
+  height: 100%;
+}
+
+.swiper-round-image {
+  padding: 0;
+}
+
+.swiper-round-image .swiper-slide img {
+  height: 250px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  margin-right: 0;
+    margin-top: 30px;
+}
+
 }/*media*/
 
 
