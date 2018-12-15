@@ -1541,9 +1541,7 @@ svg.morph-svg path{
 .swiper-round-image .swiper-slide:nth-child(odd) img {
   margin-top: -70px;
 }
-.swiper-round-image .swiper-slide:nth-child(odd) .swp-content {
-  bottom: 212px;
-}
+
 .swiper-container {
   padding: 100px 0;
 
@@ -1573,7 +1571,7 @@ svg.morph-svg path{
   background: #fff;
       z-index: 1;
       position: absolute;
-    bottom: 140px;
+    bottom: 50px;
         right: -30px;
       padding: 10px 50px;
       border-radius: 3px;
@@ -1594,15 +1592,13 @@ svg.morph-svg path{
   position: relative;
  }
   .link:after {
-    content: '';
-    background: url(../img/right-arrow.svg);
-    width: 23px;
-    height: 15px;
+    content: "\e914";
+    font-family: 'beeicon';
+
     position: absolute;
-    background-repeat: no-repeat;
-    background-size: 15px;
-    left: 62px;
-    top: 2px;
+  
+   left: 65px;
+    top: 1px;
   }
 
   .swp-review {
@@ -1899,3 +1895,13 @@ h4 i {
 .typed-cursor img {
   width: 38px;
 }
+
+
+.swiper-round-image .swiper-slide:nth-child(odd) .swp-content {
+  
+}
+.work-preview {
+  width: 100%;
+  height: 400px;
+}
+
