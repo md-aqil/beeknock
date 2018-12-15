@@ -195,6 +195,10 @@
             font-size: 11px;
             border-bottom: 1px solid #310020;
         }
+        .aside li a i{
+          display: block;
+          font-size: 25px;
+        }
         .aside li:last-child a {
           border:none;
         }

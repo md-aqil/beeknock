@@ -88,7 +88,7 @@ const finder = {
 
 		const prevIcon = $('<i />')
 			.attr({
-				'class': 'fas fa-angle-up',
+				'class': 'bee-arrow-top',
 			})
 			.appendTo(prev);
 
@@ -101,7 +101,7 @@ const finder = {
 
 		const nextIcon = $('<i />')
 			.attr({
-				'class': 'fas fa-angle-down',
+				'class': 'bee-arrow-down',
 			})
 			.appendTo(next);
 
@@ -114,7 +114,7 @@ const finder = {
 
 		const closeIcon = $('<i />')
 			.attr({
-				'class': 'fas fa-times',
+				'class': 'bee-close',
 			})
 			.appendTo(close);
 	},
