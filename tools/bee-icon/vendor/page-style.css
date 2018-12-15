@@ -39,7 +39,7 @@
          position: relative;
          flex-grow: 1;
          border-radius: 4px;
-         width: 150px
+         width: 95px
 
         }
         .glyph:hover fieldset {
@@ -421,3 +421,42 @@ pre {
     z-index: 1;
     display: none;
 }
+
+
+
+.finder-input.not-found {
+  color: #e7353f;
+}
+
+.btn-finder {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 0;
+}
+
+.finder-input,
+.btn-finder:not(:last-child) {
+  margin-right: 5px;
+}
+
+.finder-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #888;
+  border-right: 1px solid #e5e5e5;
+  margin-right: 5px;
+  padding-right: 20px;
+  white-space: nowrap;
+}
+
+.btn-finder,
+.finder-count {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
