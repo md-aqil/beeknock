@@ -8,7 +8,9 @@
           background: #f7f7f7;
           overflow: hidden;
         }
-     
+     [class^="bee-icon-"], [class*=" bee-icon-"] {
+      font-size: 40px;
+     }
         .front-banner-box {
           width: 50%;
           margin: 0 auto;
