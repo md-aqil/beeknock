@@ -212,6 +212,8 @@
         }
         .aside li a span {
           font-size: 28px;
+              display: block;
+              margin-bottom: 3px;
 
         }
         .aside li a:hover {
@@ -247,6 +249,7 @@
       width: 100%;
      display: flex;
      flex-wrap: wrap;
+     border-bottom: 1px solid #ddd;
     }
 
 
