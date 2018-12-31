@@ -6,7 +6,7 @@
           line-height: 1.5;
           color: #000;
           background: #f7f7f7;
-          overflow: hidden;
+        
         }
      [class^="bee-icon-"], [class*=" bee-icon-"] {
       font-size: 40px;
@@ -41,7 +41,7 @@
          position: relative;
          flex-grow: 1;
          border-radius: 4px;
-         width: 95px
+         width: 90px
 
         }
         .glyph:hover fieldset {
@@ -249,7 +249,6 @@
       width: 100%;
      display: flex;
      flex-wrap: wrap;
-     border-bottom: 1px solid #ddd;
     }
 
 
@@ -294,11 +293,6 @@
   width: 120px;
 }
 
-.app {
-  overflow-y: scroll;
-    max-height: 100vh;
-    overflow-x: hidden;
-}
 
 header nav.navbar {
     display: flex;
