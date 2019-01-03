@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'bee-icon';
-  src:  url('fonts/bee-icon.eot?f93qf8');
-  src:  url('fonts/bee-icon.eot?f93qf8#iefix') format('embedded-opentype'),
-    url('fonts/bee-icon.ttf?f93qf8') format('truetype'),
-    url('fonts/bee-icon.woff?f93qf8') format('woff'),
-    url('fonts/bee-icon.svg?f93qf8#bee-icon') format('svg');
+  src:  url('fonts/bee-icon.eot?bl12ed');
+  src:  url('fonts/bee-icon.eot?bl12ed#iefix') format('embedded-opentype'),
+    url('fonts/bee-icon.ttf?bl12ed') format('truetype'),
+    url('fonts/bee-icon.woff?bl12ed') format('woff'),
+    url('fonts/bee-icon.svg?bl12ed#bee-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -122,6 +122,14 @@
   content: "\ec6f";
   color: #364f6b;
 }
+.bee-icon-align-left-solid:before {
+  content: "\ec9d";
+  color: #364f6b;
+}
+.bee-icon-align-right-solid:before {
+  content: "\ec9e";
+  color: #364f6b;
+}
 .bee-icon-bluetooth-solid:before {
   content: "\eca4";
   color: #364f6b;
@@ -168,6 +176,26 @@
 }
 .bee-icon-video-o:before {
   content: "\eba9";
+  color: #364f6b;
+}
+.bee-icon-align-center2:before {
+  content: "\ebd6";
+  color: #364f6b;
+}
+.bee-icon-align-left2:before {
+  content: "\ebd7";
+  color: #364f6b;
+}
+.bee-icon-align-right2:before {
+  content: "\ebd8";
+  color: #364f6b;
+}
+.bee-icon-bar-chart-down:before {
+  content: "\ebea";
+  color: #364f6b;
+}
+.bee-icon-bar-chart-up:before {
+  content: "\ebeb";
   color: #364f6b;
 }
 .bee-icon-barcode1:before {
@@ -272,12 +300,6 @@
 .bee-icon-messenger:before {
   content: "\e9a2";
 }
-.bee-icon-pinterest2:before {
-  content: "\e942";
-}
-.bee-icon-pinterest22:before {
-  content: "\e9a3";
-}
 .bee-icon-profits:before {
   content: "\e9a4";
 }
@@ -338,18 +360,6 @@
 .bee-icon-graph:before {
   content: "\e9c0";
 }
-.bee-icon-arrow-square-right:before {
-  content: "\e9c2";
-}
-.bee-icon-arrow-square-left:before {
-  content: "\e9c3";
-}
-.bee-icon-arrow-square-down1:before {
-  content: "\e9c4";
-}
-.bee-icon-arrow-square-up:before {
-  content: "\e9c5";
-}
 .bee-icon-align-center:before {
   content: "\e9c6";
 }
@@ -361,6 +371,9 @@
 }
 .bee-icon-align-right:before {
   content: "\e9ca";
+}
+.bee-icon-amazon1:before {
+  content: "\e9cb";
 }
 .bee-icon-anchor:before {
   content: "\e9cc";
@@ -395,7 +408,7 @@
 .bee-icon-arrow-left-circle:before {
   content: "\e9d6";
 }
-.bee-icon-arrow-right1:before {
+.bee-icon-arrow-right:before {
   content: "\e9d7";
 }
 .bee-icon-arrow-right-circle:before {
@@ -410,7 +423,7 @@
 .bee-icon-arrows-v:before {
   content: "\e9db";
 }
-.bee-icon-arrow-top1:before {
+.bee-icon-arrow-top:before {
   content: "\e9dc";
 }
 .bee-icon-arrow-top-left:before {
@@ -428,9 +441,6 @@
 .bee-icon-backward-f:before {
   content: "\ea02";
 }
-.bee-icon-behance-square:before {
-  content: "\ea03";
-}
 .bee-icon-bus:before {
   content: "\e9c1";
 }
@@ -440,7 +450,7 @@
 .bee-icon-check:before {
   content: "\ea0b";
 }
-.bee-icon-close1:before {
+.bee-icon-close:before {
   content: "\ea0c";
 }
 .bee-icon-code:before {
@@ -467,14 +477,8 @@
 .bee-icon-dribbble-square:before {
   content: "\ea11";
 }
-.bee-icon-dropbox1:before {
-  content: "\ea12";
-}
 .bee-icon-gift:before {
   content: "\ea2e";
-}
-.bee-icon-github1:before {
-  content: "\ea2f";
 }
 .bee-icon-hashtag:before {
   content: "\ea3b";
@@ -539,10 +543,7 @@
 .bee-icon-wikipedia-square:before {
   content: "\eb28";
 }
-.bee-icon-yelp1:before {
-  content: "\eb2e";
-}
-.bee-icon-youtube1:before {
+.bee-icon-youtube-logo:before {
   content: "\eb2f";
 }
 .bee-icon-barcode-scan:before {
@@ -597,9 +598,6 @@
 .bee-icon-search:before {
   content: "\e916";
 }
-.bee-icon-close:before {
-  content: "\e917";
-}
 .bee-icon-refresh:before {
   content: "\e918";
 }
@@ -608,18 +606,6 @@
 }
 .bee-icon-undo:before {
   content: "\e91a";
-}
-.bee-icon-arrow-top:before {
-  content: "\e91b";
-}
-.bee-icon-arrow-down:before {
-  content: "\e91c";
-}
-.bee-icon-arrow-leftmdpi2:before {
-  content: "\e91d";
-}
-.bee-icon-arrow-right:before {
-  content: "\e924";
 }
 .bee-icon-arrow-square-down:before {
   content: "\e925";
@@ -647,9 +633,6 @@
 }
 .bee-icon-apple-store:before {
   content: "\e92d";
-}
-.bee-icon-envelope:before {
-  content: "\e92f";
 }
 .bee-icon-timer:before {
   content: "\e930";
@@ -973,13 +956,13 @@
   content: "\e98c";
 }
 .bee-icon-armchair:before {
-  content: "\e9a9";
+  content: "\ea27";
 }
 .bee-icon-dress:before {
-  content: "\ea26";
+  content: "\e9a9";
 }
 .bee-icon-graph1:before {
-  content: "\ea27";
+  content: "\ea26";
 }
 .bee-icon-heart1:before {
   content: "\ea28";
@@ -1013,21 +996,6 @@
 }
 .bee-icon-wallet:before {
   content: "\ea34";
-}
-.bee-icon-info-sign-o:before {
-  content: "\ea35";
-}
-.bee-icon-info-sign:before {
-  content: "\ea36";
-}
-.bee-icon-light-bulb:before {
-  content: "\ea37";
-}
-.bee-icon-light-bulb-o:before {
-  content: "\ea38";
-}
-.bee-icon-update-arrows:before {
-  content: "\ea39";
 }
 .bee-icon-home2:before {
   content: "\e901";
@@ -1125,10 +1093,13 @@
 .bee-icon-target:before {
   content: "\e9b4";
 }
+.bee-icon-list-numbered:before {
+  content: "\e9b9";
+}
 .bee-icon-list:before {
   content: "\e9ba";
 }
-.bee-icon-list-circle:before {
+.bee-icon-list2:before {
   content: "\e9bb";
 }
 .bee-icon-tree:before {
@@ -1353,6 +1324,24 @@
 .bee-icon-rtl:before {
   content: "\ea75";
 }
+.bee-icon-paragraph-left:before {
+  content: "\ea77";
+}
+.bee-icon-paragraph-center:before {
+  content: "\ea78";
+}
+.bee-icon-paragraph-right:before {
+  content: "\ea79";
+}
+.bee-icon-paragraph-justify:before {
+  content: "\ea7a";
+}
+.bee-icon-indent-increase:before {
+  content: "\ea7b";
+}
+.bee-icon-indent-decrease:before {
+  content: "\ea7c";
+}
 .bee-icon-embed:before {
   content: "\ea7f";
 }
@@ -1410,9 +1399,6 @@
 .bee-icon-youtube:before {
   content: "\ea9e";
 }
-.bee-icon-youtube-logo:before {
-  content: "\ea9f";
-}
 .bee-icon-vimeo:before {
   content: "\eaa0";
 }
@@ -1457,9 +1443,6 @@
 }
 .bee-icon-joomla:before {
   content: "\eab9";
-}
-.bee-icon-ello:before {
-  content: "\eaba";
 }
 .bee-icon-blogger-square:before {
   content: "\eabb";
