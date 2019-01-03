@@ -424,6 +424,7 @@ header nav.navbar ul li a{
       position: absolute;
       right: 20px;
       transition: all .5s;
+      top: 10px;
 
 }
 
@@ -490,4 +491,16 @@ section article {
 .title.active:after{
     transform: rotate(-90deg);
 
+}
+
+.title .lead {
+  font-size: 16px;
+      font-weight: 400;
+      color: #888;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
 }
