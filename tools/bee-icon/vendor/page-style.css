@@ -408,7 +408,7 @@ header nav.navbar ul li a{
 .title {
   width: 100%;
       font-size: 25px;
-      background: #4b173812;
+      background: #0000000f;
       border-left: 3px solid;
       padding: 10px;
       margin-top: 0;
@@ -504,4 +504,11 @@ section article {
   margin: 0;
   font-size: 25px;
   font-weight: bold;
+}
+
+.bg_color [class*="bee-icon-"] {
+ background: -webkit-linear-gradient(#fff, #ffffff94);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ text-shadow: none;
 }
