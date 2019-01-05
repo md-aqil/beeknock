@@ -945,30 +945,7 @@
 .bee-icon-wallet:before {
   content: "\ea34";
 }
-.bee-icon-box .path1:before {
-  content: "\e917";
-  color: rgb(0, 0, 0);
-}
-.bee-icon-box .path2:before {
-  content: "\e9c3";
-  margin-left: -1em;
-  color: rgb(229, 229, 229);
-}
-.bee-icon-box .path3:before {
-  content: "\e9c4";
-  margin-left: -1em;
-  color: rgb(229, 229, 229);
-}
-.bee-icon-box .path4:before {
-  content: "\e9c5";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.bee-icon-box .path5:before {
-  content: "\ea03";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
+
 .bee-icon-home2:before {
   content: "\e901";
 }
@@ -1517,4 +1494,36 @@
 }
 .bee-icon-IcoMoon:before {
   content: "\eaeb";
+}
+
+
+/*multicolor*/
+
+
+
+.bee-icon-box .path1:before {
+  content: "\e917";
+  color: rgb(0, 0, 0);
+}
+
+
+.bee-icon-box .path2:before {
+  content: "\e9c3";
+  margin-left: -1em;
+  color: rgb(229, 229, 229);
+}
+.bee-icon-box .path3:before {
+  content: "\e9c4";
+  margin-left: -1em;
+  color: rgb(229, 229, 229);
+}
+.bee-icon-box .path4:before {
+  content: "\e9c5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bee-icon-box .path5:before {
+  content: "\ea03";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
 }
