@@ -408,7 +408,7 @@ header nav.navbar ul li a{
 .title {
   width: 100%;
       font-size: 25px;
-      background: #0000000f;
+      background: rgba(0, 0, 0, 0.03);
       border-left: 3px solid;
       padding: 10px;
       margin-top: 0;
@@ -511,4 +511,21 @@ section article {
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
  text-shadow: none;
+}
+
+article .title {
+  border:none;
+  background: none;
+ 
+}
+article .title:after {
+  content: none;
+}
+article .title h1 {
+  font-size: 20px;
+      color: #3c3c3c;
+}
+
+.bg_color.square {
+  border-radius: 4px;
 }
