@@ -502,8 +502,9 @@ animation-delay: 1s;
 .front-bg {
   /*background: url(../img/fbg.svg) no-repeat center;*/
   /*width: 100%;*/
-  min-height: 100vh;
+  height: 100vh;
   background: var(--theme-color);
+  overflow: hidden;
 
 }
 #bg-art {
@@ -1244,7 +1245,7 @@ line-height: 2;
 }
 
 .flower-art {
-  width: 100%;
+  width: 95%;
   margin-right: -50px; 
   float: right;
   margin-top: -30px;
@@ -1299,157 +1300,6 @@ line-height: 2;
       width: 49px;
 }
 
-
-
-.image-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-  text-decoration: none !important;
-  color: #fff;
-}
-
-.image-grid__item {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 360px;
-  align-items: stretch;
-  justify-content: center;
-  position: relative;
-  height: 220px;
-  margin-right: 14px;
-  margin-bottom: 14px;
-  transition: text-shadow 0.1s ease-in, -webkit-transform 0.14s ease-in;
-  transition: transform 0.14s ease-in, text-shadow 0.1s ease-in;
-  transition: transform 0.14s ease-in, text-shadow 0.1s ease-in, -webkit-transform 0.14s ease-in;
-}
-.image-grid__item:before {
-  content: "";
-  visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: none;
-  border-radius: 3px;
-  box-shadow: 0 10px 24px 0px rgba(0, 0, 0, 0.06), 0 8px 20px -2px rgba(0, 0, 0, 0.1), 0 6px 10px -6px rgba(0, 0, 0, 0.2);
-  transition: visibility 0.1s ease-out, opacity 0.1s ease-out;
-  opacity: 0;
-}
-.image-grid__item:hover:before {
-  visibility: visible;
-  opacity: 1;
-}
-
-.grid-item {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  flex-grow: 1;
-  flex-shrink: 1;
-  align-items: stretch;
-  justify-content: center;
-  text-decoration: none !important;
-  color: #eeeeee;
-  overflow: hidden;
-  height: 100%;
-}
-.grid-item:hover .grid-item__image {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-.grid-item:hover .grid-item__hover {
-  visibility: visible;
-  opacity: 1;
-}
-.grid-item:hover .grid-item__name {
-  visibility: visible;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  opacity: 1;
-}
-
-.grid-item__image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  will-change: transform;
-  transition: -webkit-transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  z-index: 0;
-}
-
-.grid-item__hover {
-  visibility: hidden;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, #9e2a57 0%, #2791ffab 100%, #ff27595c 100%);
- 
-
-  border-radius: 0;
-  transition: visibility 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  opacity: 0;
-}
-
-.grid-item__name {
-  color: #fff;
-  visibility: hidden;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  flex-shrink: 1;
-  align-items: center;
-  font-size: 2rem;
-  font-weight: 300;
-  justify-content: center;
-  letter-spacing: 1px;
-  -webkit-transform: scale(0.6);
-          transform: scale(0.6);
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-  transition: visibility 0.14s ease-out, opacity 0.14s ease-out, -webkit-transform 0.24s ease;
-  transition: visibility 0.14s ease-out, opacity 0.14s ease-out, transform 0.24s ease;
-  transition: visibility 0.14s ease-out, opacity 0.14s ease-out, transform 0.24s ease, -webkit-transform 0.24s ease;
-  opacity: 0;
-}
-
-.grid-item {
-  position: relative;
-}
-.grid-item:before {
- content: '';
-     width: 100%;
-     height: 100%;
-     position: absolute;
-     top: 0;
-     left: 0;
-     display: block;
-     background: rgba(0, 0, 0, 0.04);
-     z-index: 1;
-
-}
 
 .wwd-section {
   width: 100%;
@@ -1741,7 +1591,7 @@ box-shadow: 1px 2px 22px rgba(0, 0, 0, 0.15);
 
 .morph-svg {
   position: absolute;
-    top: -100px;
+    top: 0px;
     right: -100px;
     width: 800px;
 }
@@ -1882,12 +1732,12 @@ h4 i {
 .designer-div {
  height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .designer-div svg {
-  width: 100%;
+  width: 90%;
    /*transform: rotateX(-70deg);*/
 }
 
@@ -1920,4 +1770,98 @@ h4 i {
 
 .grid-box {
   display:  flex;
+}
+
+.grid-item.flex .item {
+    flex-basis: 250px;
+    flex-grow: 1;
+    margin: 7px;
+    height: 300px;
+}
+.full-width {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item.first {
+    flex-grow: 1;
+    flex-basis: 48%;
+    flex-shrink: 0;
+    margin: 7px;
+    height: 650px;
+}
+
+.grid-item.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer-squre-box {
+ width: 100%;
+    height: 500px;
+    border: 10px solid #fff;
+    position: absolute;
+    background: var(--theme-color);
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    z-index: 10;
+    box-shadow: 0 0 30px #0000001f;
+    left: -90px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+.footer-squre-box h1 {
+  font-weight: 800;
+}
+
+
+.grid figure.figure-content  figcaption {
+  text-align: left;
+  padding: 20px;
+}
+
+.image-bg {
+  background: url(../img/connection-create-creative-1124066.jpg) center no-repeat;
+  background-size: cover;
+  filter: brightness(80%);
+}
+
+figure.effect-lily img {
+  object-fit: cover;
+}
+
+figcaption h2 a{
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+figcaption h2 a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.wxwh li a {
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  margin-top: 20px;
+}
+
+.tech-list .swiper-slide {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.device-slider  img {
+  width: 70%;
+  display: block;
+  margin: auto;
 }

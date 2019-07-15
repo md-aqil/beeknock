@@ -202,3 +202,62 @@ var swiper = new Swiper('.swiper-container.products', {
     $(this).attr('data-wow-delay', `${(a / 10) * 1.5}s`);
   });
       
+
+var swiper = new Swiper('.swiper-loop', {
+    loop: true,
+     autoplay: {delay: 1, },
+    freeMode: true,
+    speed: 5000,
+
+      slidesPerView: 4,
+      spaceBetween: 30,
+
+
+    });
+
+
+// var tlFirstScroll = new TimelineMax();
+
+
+// tlFirstScroll
+// .staggerFrom('#main-line', 10, { drawSVG:1 });
+
+
+// var controller = new ScrollMagic.Controller();
+
+
+// var scene1 = new ScrollMagic.Scene({
+//   triggerElement:  '#footer',
+//   triggerHook: 0,
+//   duration: '100%' 
+// })
+
+// .setTween(tlFirstScroll)
+// .addTo(controller)
+
+// .setPin('#footer')
+// .addTo(controller);
+
+var tlmorph = new TimelineMax();
+
+
+// tlmorph.to('svg', 1, {morphSVG:"#tab-device"}, "+=1")
+
+var swiperdevice = new Swiper('.swiper-container.device-slider', {
+      speed: 600,
+      parallax: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+
+
+
+
+      

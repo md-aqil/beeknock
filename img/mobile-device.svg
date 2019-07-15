@@ -1,0 +1,19 @@
+
+
+<svg width="196.46" height="357.164" viewBox="0 0 196.46 357.164">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.499" y1="0.999" x2="0.499" y2="0.015" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
+      <stop offset="0.54" stop-color="gray" stop-opacity="0.122"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
+    </linearGradient>
+  </defs>
+  <g id="mobile-device" transform="translate(-233 -405.285)">
+    <rect id="Rectangle_46" data-name="Rectangle 46" width="195.96" height="356.89" rx="10" transform="translate(233 405.56) rotate(-0.08)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_47" data-name="Rectangle 47" width="186.94" height="342.74" rx="10" transform="translate(237.528 411.433) rotate(-0.08)" fill="#fff"/>
+    <rect id="Rectangle_48" data-name="Rectangle 48" width="144.73" height="278.92" transform="translate(258.662 435.634) rotate(-0.08)" fill="#6c63ff"/>
+    <ellipse id="Ellipse_35" data-name="Ellipse 35" cx="2.31" cy="2.36" rx="2.31" ry="2.36" transform="translate(306.781 420.207) rotate(-0.08)" fill="#dbdbdb"/>
+    <rect id="Rectangle_49" data-name="Rectangle 49" width="35.77" height="3.55" rx="1.5" transform="translate(319.471 420.769) rotate(-0.08)" fill="#dbdbdb"/>
+    <ellipse id="Ellipse_34" data-name="Ellipse 34" cx="11.54" cy="11.82" rx="11.54" ry="11.82" transform="translate(319.869 721.13)" fill="#dbdbdb"/>
+  </g>
+</svg>
