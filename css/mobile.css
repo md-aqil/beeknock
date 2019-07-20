@@ -99,10 +99,21 @@
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
+
 .footer-squre-box {
   height: 80%;
   border-width: 5px;
   padding: 30px;
+}
+
+.grid-item.flex .item {
+    flex-basis: 150px;
+    
+    height: 200px;
+}
+
+.swiper-loop .swiper-slide span {
+  display: flex;
 }
 
 .swiper-container {
