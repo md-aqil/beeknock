@@ -1803,7 +1803,7 @@ h4 i {
 
 
 .footer-squre-box {
- width: 100%;
+ width: 90%;
     height: 500px;
     border: 10px solid #fff;
     position: absolute;
@@ -1813,7 +1813,8 @@ h4 i {
     margin: auto;
     z-index: 10;
     box-shadow: 0 0 30px #0000001f;
-    left: -90px;
+    left: 0px;
+    right: 0;
     padding: 50px;
     display: flex;
     align-items: center;
@@ -1840,12 +1841,15 @@ figure.effect-lily img {
 
 figcaption h2 a{
   color: #fff;
-  font-weight: 700;
+  font-weight: 500;
   text-decoration: none;
 }
 figcaption h2 a:hover {
   text-decoration: none;
   color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+  font-size: 17px;
 }
 
 .wxwh li a {
@@ -1865,3 +1869,23 @@ figcaption h2 a:hover {
   display: block;
   margin: auto;
 }
+.parrallax-slider .swiper-slide {
+  text-align: center;
+}
+
+.parrallax-slider .swiper-slide img  {
+  width: 60%;
+  display: block;
+  margin:auto;
+}
+
+.parrallax-slider .swiper-slide h1{
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.parrallax-slider .swiper-slide .text{
+  font-size: 17px;
+}
+
+

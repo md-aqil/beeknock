@@ -140,13 +140,7 @@ tl2.fromTo('#gril-main', 1, {
        console.log('four');
      }
 
-     $('a.page').click(function(){
-         $('html, body').animate({
-             scrollTop: $( $(this).attr('href') ).offset().top
-         }, 2000);
-         return false;
-     });
-
+   
 var swiper = new Swiper('.swiper-container.products', {
     slidesPerView: 4,
     spaceBetween: 50,
@@ -211,7 +205,21 @@ var swiper = new Swiper('.swiper-loop', {
 
       slidesPerView: 4,
       spaceBetween: 30,
-
+      breakpoints: {
+       
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        }
+      }
 
     });
 
@@ -258,6 +266,40 @@ var swiperdevice = new Swiper('.swiper-container.device-slider', {
 
 
 
+  $('a.page').click(function(){
+         $('html, body').animate({
+             scrollTop: $( $(this).attr('href') ).offset().top
+         }, 2000);
+         return false;
+     });
+
+
+
+ var swiperp = new Swiper('.swiper-container.parrallax-slider', {
+      speed: 600,
+      parallax: true,
+    autoplay: {delay: 1000, },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+    disableOnInteraction: true,
+
+    });
+
+
+
+
+  $(".swiper-container").mouseenter(function() {
+    swiperp.autoplay.stop();
+    console.log('slider stopped');
+  });
+
+  $(".swiper-container").mouseleave(function() {
+    swiperp.autoplay.start();
+    console.log('slider started again');
+  });
 
 
       
